@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding:0;
+     padding: min(5em,8%,);
 }
 body {
     background-color: #BBDCDC;
@@ -75,6 +75,7 @@ h1 {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 30px;
+     font-size: 3vw;
 }
 .package {
     background: #fff;
@@ -95,4 +96,8 @@ h1 {
 }
 .package p {
     color: #555;
+    font-size: 1.18vw;
+}
+h2 {
+    font-size: 2vw;
 }
