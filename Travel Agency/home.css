@@ -15,18 +15,26 @@
     border-radius: 10px;
     border: 2px solid rgb(100, 240, 255);
     box-shadow:2px 2px 2px rgb(1, 17, 23);
+    z-index: 20;
 
 }
 .items{
     margin-right: -50%;
 
     justify-content: space-between;
+    
 }
 .items a{
     color: black;
     margin-left: 30px;
     font-size: large;
     text-decoration: none;
+    
+    cursor: pointer;
+
+}
+.items a:hover{
+    text-decoration: underline;
 
 }
 .logo {
@@ -113,7 +121,8 @@ scrollbar-width: none
 }
 h3 {
     word-spacing: 10px;
-    margin-right: 50px;
+    margin-right: 0px;
+    width: fit-content;
     position: relative;
     bottom: -80px;
     animation: slidein2 2s normal forwards;
@@ -158,4 +167,14 @@ top: -50px;
         list-style: none;
         text-decoration: none;
         color: black;
+        font-size: 18px;
+        
     }
+.quote{
+    position: absolute;
+    right: 300px;
+}
+.foot a:hover {
+
+    text-decoration: underline;
+}
